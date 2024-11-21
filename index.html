@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de cocina</title>
+</head>
+<body>
+    <header>    
+        <div class="logo"> Mi Recetario</div>
+        <form id="searchForm" action="resultados-busqueda.html">
+        <input type="text" id="SearchInput" placeholder="Buscar Recetas" required>
+        <button type="submit">Buscar</button>
+</form>
+<nav>
+<a href="index.html">Home</a>
+<a href="categorias.html">categorias</a>
+<a href="login.html">login</a>
+<a href="registro.html">registro</a>
+</nav>
+  </header>
+<main>
+<h1>Recetas Destacadas</h1>
+<div id="recipescontainer"></div>
+<button id="LoadmoreBtn">Cargar Mas</button>
+</main>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
