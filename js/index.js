@@ -6,9 +6,6 @@ fetch("https://dummyjson.com/recipes?limit=10")
     let recetas = data.recipes;
     let recipes = "";
     let recipesList = document.querySelector("#recipes-list");
-    recipesList.style.display = "flex"
-    recipesList.style.flexWrap = "wrap"
-    recipesList.style.justifyContent = "space-evenly"
     for (let i = 0; i < recetas.length; i++) {
       recipes += `
                 <article>
