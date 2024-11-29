@@ -272,7 +272,7 @@ body {
     background-color: #e65c53;
   }
   
-
+/* forma de seleccionar los que la clase empieze con 'error' */
   div[class^="error"] {
     font-size: 12px;
     color: red;
