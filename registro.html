@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title>Validación de Formularios</title>
-<link rel="stylesheet" href="/css/style.css">
-	</head>
-	<body>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-8">
-					<h2>Formulario de registro</h2>
-					<form method="get" class="contact-form" action="exito.html">
-						<div class="form-group">
-							<label for="fullName">Nombre completo</label>
-							<input type="text" name="fullName" id="fullName" class="form-control">
-							<div class="invalid-feedback fullName"></div>
-						</div>
-						<div class="form-group">
-							<label for="email">Correo electronico</label>
-							<input type="email" name="email" id="email" class="form-control">
-							<div class="invalid-feedback email"></div>
-						</div>
-						<div class="form-group">
-							<label for="phone">Telefono de contacto</label>
-							<input type="number" name="phone" id="phone" class="form-control">
-							<div class="invalid-feedback phone"></div>
-						</div>
-						<div class="form-group">
-							<label for="password">Contrasena</label>
-							<input type="password" name="password" id="password" class="form-control">
-							<div class="invalid-feedback password"></div>
-						</div>
-						<div class="form-group">
-							<label for="rePassword">Repetir Contrasena</label>
-							<input type="password" name="rePassword" id="rePassword" class="form-control">
-							<div class="invalid-feedback rePassword"></div>
-						</div>
-						<button type="submit" class="btn btn-success">ENVIAR</button>
-					</form>
-				</div>
-			</div>
-		</div>
+  <head>
+    <meta charset="utf-8" />
+    <title>Validación de Formularios</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>>
+          <h2>Formulario de registro</h2>
+          <form method="get"  action="login.html">
+            <div>
+              <label for="fullName">Nombre completo</label>
+              <input
+                type="text"
+                name="fullName"
+                id="fullName"
+              />
+              <div class="fullName"></div>
+            </div>
+            <div>
+              <label for="email">Correo electronico</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+              />
+              <div class="email"></div>
+            </div>
+            <div>
+              <label for="phone">Telefono de contacto</label>
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+              />
+              <div class="phone"></div>
+            </div>
+            <div>
+              <label for="password">Contrasena</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+              />
+              <div class="password"></div>
+            </div>
+            <div>
+              <label for="rePassword">Repetir Contrasena</label>
+              <input
+                type="password"
+                name="rePassword"
+                id="rePassword"
+              />
+              <div class="rePassword"></div>
+            </div>
+            <button type="submit">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
- <footer> <p>Agustin Litvac y Santiago Sanchez Pinedo</p></footer>
-	<script src="./js/formulario.js"></script>
-	</body>
+    <footer><p>Agustin Litvac y Santiago Sanchez Pinedo</p></footer>
+    <script src="./js/formulario.js"></script>
+  </body>
 </html>

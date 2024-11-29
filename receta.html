@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detalles de Receta</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo"> Mi Recetario </div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="categorias.html">Categorías</a>
-        <a href="login.html">Login</a>
-        <a href="registro.html">Registro</a>
-    </nav>
-    </header>
+        <div class="logo">Mi Recetario</div>
+        <form method="get" id="searchForm" action="search-results.html">
+          <input
+            type="text"
+            id="SearchInput"
+            placeholder="Buscar Recetas"
+            required
+            name="input"
+          />
+          <button type="submit">Buscar</button>
+        </form>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="categorias.html">categorias</a>
+          <a href="login.html">login</a>
+          <a href="registro.html">registro</a>
+        </nav>
+      </header>
     <main>
-        <div id="recipeDetail">
+      <div id="recipeDetail">
         <h1 id="recipeName"></h1>
-        <img id="recipeImage" src="" alt="">
-        <p id="recipeCookTimeMinutes"> Tiempo de coccion</p>
-        <ul id="recipeTags">
-
+        <img id="recipeImage" src="" alt="" />
+        <ul>
+          <div id="recipeCookTimeMinutes">
+            <h2>Tiempo de coccion:</h2>
+          </div>
         </ul>
+        <ul id="recipeTags"></ul>
         <ol id="recipeInstructions">
-            
+          <h2>Instrucciones:</h2>
         </ol>
-    </div>
+      </div>
     </main>
-    <footer> <p>Agustin Litvac y Santiago Sanchez Pinedo</p></footer>
+    <footer><p>Agustin Litvac y Santiago Sanchez Pinedo</p></footer>
     <script src="./js/recetas.js"></script>
-</body>
+  </body>
 </html>
