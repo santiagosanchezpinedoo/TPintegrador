@@ -24,7 +24,6 @@ fetch("https://dummyjson.com/recipes?limit=10")
 let cont = 1;
 function cargarMas() {
   cont++;
-  let recipesList = document.querySelector("#recipes-list");
   fetch(`https://dummyjson.com/recipes?limit=10&skip=${cont * 10}`)
     .then(function (response) {
       return response.json();
@@ -32,7 +31,7 @@ function cargarMas() {
     .then(function (data) {
       let recetas = data.recipes;
       let recipes = "";
-      let recipesList = document.querySelector("#recipes-list");
+      let recipesList = document.querySelector(".recipes-list");
       for (let i = 0; i < recetas.length; i++) {
         recipes += `
                 <article>

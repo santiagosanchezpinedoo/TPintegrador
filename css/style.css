@@ -41,11 +41,7 @@ body {
     cursor: pointer;
     font-size: 14px;
   }
-  
-  header form button:hover {
-    background-color: #f0f0f0;
-  }
-  
+
   header nav ul {
     list-style: none;
     display: flex;
@@ -133,7 +129,7 @@ body {
     font-size: 14px;
   }
 
-  /* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -142,7 +138,7 @@ body {
     color: #333;
   }
   
-  /* Header Styles */
+ 
   header {
     background-color: #ff6f61;
     color: white;
@@ -156,30 +152,7 @@ body {
     font-size: 24px;
     font-weight: bold;
   }
-  
-  header form {
-    display: flex;
-    gap: 10px;
-  }
-  
-  header form input {
-    padding: 5px;
-    font-size: 14px;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  header form button {
-    padding: 5px 10px;
-    border: none;
-    background-color: white;
-    color: #ff6f61;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
+
   header form button:hover {
     background-color: #f0f0f0;
   }
@@ -188,18 +161,8 @@ body {
     display: flex;
     gap: 15px;
   }
-  
-  header nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  header nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Main Styles */
+
+
   h1 {
     text-align: center;
     margin-top: 20px;
@@ -232,7 +195,7 @@ body {
     text-decoration: underline;
   }
   
-  /* Footer Styles */
+
   footer {
     background-color: #333;
     color: white;
@@ -241,7 +204,7 @@ body {
     margin-top: 20px;
     font-size: 14px;
   }
-  /* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -250,7 +213,7 @@ body {
     color: #333;
   }
   
-  /* Container */
+
   .container {
     max-width: 80%;
     margin: 20px auto;
@@ -261,14 +224,13 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Title */
   .container h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
   }
   
-  /* Form */
+
   form {
     max-width: 600px;
     margin: 0 auto;
@@ -310,7 +272,7 @@ body {
     background-color: #e65c53;
   }
   
-  /* Error Messages */
+
   div[class^="error"] {
     font-size: 12px;
     color: red;
@@ -318,7 +280,7 @@ body {
     margin-top: 5px;
   }
   
-  /* Footer */
+  
   footer {
     background-color: #333;
     color: white;
