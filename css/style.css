@@ -1,292 +1,295 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  header {
-    background-color: #ff6f61;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  }
-  
-  header .logo img {
-    height: 50px;
-  }
-  
-  header form {
-    display: flex;
-    gap: 10px;
-  }
-  
-  header form input {
-    padding: 10px;
-    font-size: 14px;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  header form button {
-    padding: 10px 15px;
-    border: none;
-    background-color: #fff;
-    color: #ff6f61;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
-  header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  header nav a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  main h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  main p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .recipes-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px auto;
-    max-width: 90%;
-    padding: 0;
-  }
-  
-  .recipes-list article {
-    flex: 1 1 calc(30% - 20px);
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  
-  .recipes-list img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  #cargarMas-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  #cargarMas {
-    padding: 10px 20px;
-    font-size: 14px;
-    background-color: #ff6f61;
-    color: white;
-    border: none;
-    border-radius: 5px;
+header {
+  background-color: #ff6f61;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
 
-  }
-  
-  #cargarMas:hover {
-    background-color: #e65c53;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
-  }
+header .logo img {
+  height: 50px;
+}
+
+header form {
+  display: flex;
+  gap: 10px;
+}
+
+header form input {
+  padding: 10px;
+  font-size: 14px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+header form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #fff;
+  color: #ff6f61;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.recipes-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+  padding: 0;
+}
+
+.recipes-list article {
+  flex: 1 1 36%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.recipes-list img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+#cargarMas-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#cargarMas {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+#cargarMas:hover {
+  background-color: #e65c53;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
 
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
- 
-  header {
-    background-color: #ff6f61;
-    color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  header form button:hover {
-    background-color: #f0f0f0;
-  }
-  
-  header nav {
-    display: flex;
-    gap: 15px;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
 
 
-  h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 24px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px auto;
-    max-width: 80%;
-  }
-  
-  ul li {
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  ul li a {
-    text-decoration: none;
-    color: #ff6f61;
-    font-size: 16px;
-  }
-  
-  ul li a:hover {
-    text-decoration: underline;
-  }
-  
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    font-size: 14px;
-  }
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header form button:hover {
+  background-color: #f0f0f0;
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+ul li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ff6f61;
+  font-size: 16px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
 
-  .container {
-    max-width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 24px;
-  }
-  
 
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  form div {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: #555;
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #ff6f61;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #e65c53;
-  }
-  
-/* forma de seleccionar los que la clase empieze con 'error' */
-  div[class^="error"] {
-    font-size: 12px;
-    color: red;
-    display: none;
-    margin-top: 5px;
-  }
-  
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
-  
+.container {
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #e65c53;
+}
+
+div[class^="error"] {
+  font-size: 12px;
+  color: red;
+  display: none;
+  margin-top: 5px;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.SearchInput {  
+text-align: center;
+}
+
+
   

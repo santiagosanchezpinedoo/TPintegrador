@@ -18,7 +18,7 @@ let passwordError = "La contraseña debe tener al menos 3 caracteres";
 let rePasswordError = "Ambas contrase`ñas deben ser iguales.";
 
 let erroresBool = false;
-// ejemplo de validacion on time:
+ 
 rePassword.addEventListener("input", function () {
   if (password.value != rePassword.value) {
     errorRePassword.style.display = "block";
